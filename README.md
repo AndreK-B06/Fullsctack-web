@@ -1,9 +1,9 @@
 # To do list:
 
-Look for insperasjon
-Make the fraim for the side
-get img for the side
-make backend.
+* Look for insperasjon
+* Make the fraim for the side
+* get img for the side
+* make backend.
 
 <hr>
 
