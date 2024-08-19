@@ -1,8 +1,12 @@
 :root {
   --background: #252323;
   --text: #f0f8ff;
+  --nav: #808080bfy;
 }
 
 .App {
   background-color: var(--background);
+}
+.navBar {
+  background-color: var(--nav);
 }
