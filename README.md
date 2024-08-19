@@ -1,3 +1,12 @@
+# To do list:
+
+* Look for insperasjon
+* Make the fraim for the side
+* get img for the side
+* make backend.
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
