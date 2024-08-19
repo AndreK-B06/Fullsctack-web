@@ -2,3 +2,7 @@
   --background: #252323;
   --text: #f0f8ff;
 }
+
+.App {
+  background-color: var(--background);
+}
