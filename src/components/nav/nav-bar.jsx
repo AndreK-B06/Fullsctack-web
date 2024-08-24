@@ -5,23 +5,26 @@ export default function navBar() {
     <>
       <nav className="navBar">
         <div className="game-drop-down nav-btn">
-          <button button className="nav-btn">
+          <button button className="nav-btn font-btn">
             Game Info
           </button>
         </div>
 
-        <button className="nav-btn">News</button>
+        <button className="nav-btn font-btn">News</button>
 
-        <button button className="nav-btn">
+        <button button className="nav-btn font-btn">
           Download
         </button>
 
+        <button button className="nav-btn marg-5 font-btn">
+          Sign Up
+        </button>
+
         <section className="nav-btn flex-row">
-          <button button className="nav-btn marg-5">
-            Sign Up
+          <button className="nav-btn marg-5 flex-row">
+            <img className="icons marg-5" src="/logo.png" alt="user img" />
+            <p className="font-btn">Logg in</p>
           </button>
-          <img className="icons marg-5" src="/logo.png" alt="user img" />
-          <button className="nav-btn marg-5">Log in</button>
         </section>
       </nav>
     </>
