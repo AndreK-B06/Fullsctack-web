@@ -1,3 +1,5 @@
+import "./nav-bar.css";
+
 export default function navBar() {
   return (
     <>
@@ -14,13 +16,12 @@ export default function navBar() {
           Download
         </button>
 
-        <button button className="nav-btn">
-          Sign Up
-        </button>
-
-        <section className="nav-btn">
-          <img src="" alt="user img" />
-          <p>Log in</p>
+        <section className="nav-btn flex-row">
+          <button button className="nav-btn marg-5">
+            Sign Up
+          </button>
+          <img className="icons marg-5" src="/logo.png" alt="user img" />
+          <button className="nav-btn marg-5">Log in</button>
         </section>
       </nav>
     </>
