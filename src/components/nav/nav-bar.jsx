@@ -16,13 +16,12 @@ export default function navBar() {
           Download
         </button>
 
-        <button button className="nav-btn marg-5 font-btn">
-          Sign Up
-        </button>
-
-        <section className="nav-btn flex-row">
+        <section className=" flex-row">
+          <button button className="nav-btn marg-5 font-btn">
+            Sign Up
+          </button>
           <button className="nav-btn marg-5 flex-row">
-            <img className="icons marg-5" src="/logo.png" alt="user img" />
+            <img className="icons marg-5" src="/user.png" alt="user img" />
             <p className="font-btn">Logg in</p>
           </button>
         </section>
