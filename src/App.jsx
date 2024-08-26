@@ -1,11 +1,12 @@
 import "./App.css";
 import NavBar from "./components/nav/nav-bar";
+import Hero from "./components/hero/heroSection";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <h1>Iceforge Citadel</h1>
+      <Hero />
     </div>
   );
 }
